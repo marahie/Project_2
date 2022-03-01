@@ -2,7 +2,7 @@
 
 body {
 	margin: 100px;
-	background-color: black;
+	background-color: #111;
 	color: white;
 }
 
@@ -11,16 +11,22 @@ a {
 	text-decoration: none;
 }
 
+img {
+	width: 400px
+}
+
 .dialogue {
-	font-size: 20px;
+	font-size: 50px;
 	color: white;
-	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif"
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	padding: 20px;
 }
 
 .input {
-	font-size: 18px;
+	font-size: 50px;
 	color: white;
-	font-family:"Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace"
+	font-family:"Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
+	padding: 20px;
 }
 
 .lower_right {
@@ -45,4 +51,112 @@ a {
 .hoverable:hover {
 	color: white;
 	font: bolder;
+}
+
+.fem_size {
+	height: 800px;
+	width: auto;
+}
+
+.masc_size {
+	height: 700px;
+	width: auto;
+}
+
+.bad_words {
+	width: 300px;
+	height: auto;
+	position: absolute;
+}
+
+.footer {
+	position: fixed;
+	width: 90%;
+	text-align: center;
+	bottom: 20px;
+}
+
+.notes {
+	color: white;
+	font-family: Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+	font-size: 12px;
+}
+
+#one {
+	left: 40%;
+	top: 15%;
+}
+
+#two {
+	left: 75%;
+	top: 30%;
+}
+
+#three {
+	left: 40%;
+	top: 60%;
+}
+
+#four {
+	left: 65%;
+	top: 50%;
+}
+
+#five {
+	left: 80%;
+	top: 60%;
+}
+
+#heart {
+	width: 20px;
+	height: auto;
+}
+
+#fadeOut {
+	position: fixed;
+	animation: fadeOut ease 3s;
+	animation-fill-mode: forwards;
+	-moz-animation: fadeOut ease 3s;
+	-moz-animation-fill-mode: forwards;
+	-webkit-animation: fadeOut ease 3s;
+	-webkit-animation-fill-mode: forwards;
+	-o-animation: fadeOut ease 3s;
+	-o-animation-fill-mode: forwards;
+}
+
+
+@keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-moz-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-webkit-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
+}
+
+@-o-keyframes fadeOut {
+  0% {
+    opacity:1;
+  }
+  100% {
+    opacity:0;
+  }
 }
