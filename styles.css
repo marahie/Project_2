@@ -3,7 +3,7 @@
 body {
 	margin: 100px;
 	background-color: #111;
-	color: white;
+	color: black;
 }
 
 a {
@@ -23,6 +23,10 @@ img {
 }
 
 .input {
+	border-style: solid;
+	border-color: white;
+	border-radius: 5px;
+	border-width: 2px;
 	font-size: 50px;
 	color: white;
 	font-family:"Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", "monospace";
@@ -30,17 +34,26 @@ img {
 }
 
 .lower_right {
+	left: 50%;
 	position: fixed;
-	width: 90%;
+	width: 45%;
 	text-align: right;
 	bottom: 50px;
 }
 
 .centered {
+	left: 35%;
 	position: fixed;
-	width: 90%;
+	width: 35%;
 	text-align: center;
 	bottom: 50%;
+}
+
+.left {
+	position: fixed;
+	left: 60%;
+	bottom: 40%;
+	text-align: center;
 }
 
 .hoverable {
@@ -110,6 +123,12 @@ img {
 #heart {
 	width: 20px;
 	height: auto;
+}
+
+#fix {
+	position: fixed;
+	bottom: 10%;
+	left: 10%;
 }
 
 #fadeOut {
